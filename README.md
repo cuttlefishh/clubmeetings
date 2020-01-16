@@ -2,11 +2,11 @@
 
 Tentative Schedule Plan:
 
-January 16  - CCS/Libraries; Git and Github, collaborative coding
+** January 16  - CCS/Libraries; Git and Github, collaborative coding
 
-January 23  - Elections; discuss plan for semester, Tidy Tuesday
+** January 23  - Elections; discuss plan for semester, Tidy Tuesday
 
-January 30  - Student presenter; Nick on RNA-seq and/or Coexpression analysis
+** January 30  - Student presenter; Nick on RNA-seq and/or Coexpression analysis
 
 February 6 – Student presenter; Melissa on R
 
@@ -16,13 +16,13 @@ February 20 –
 
 February 27 - Invited speaker; Dr. Daniel Isom – Teaches the bioinformatics class on the medical campus in Python
 
-March 5– Student presenter; Anthony on microbiome, single-cell RNA seq
+** March 5– Student presenter; Anthony on microbiome, single-cell RNA seq
 
-March 12 (Spring Recess)
+** March 12 (Spring Recess)
 
-March 19 - Invited speaker: Dr. Luke Thompson from AOML
+** March 19 - Invited speaker: Dr. Luke Thompson from AOML
 
-March 26– Student presenter; Mike Connelly on NCBI databases and BLAST data
+** March 26– Student presenter; Mike Connelly on NCBI databases and BLAST data
 
 April 2 - Invited speaker; Michael Love’s lecture of DESeq2
 
