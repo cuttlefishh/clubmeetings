@@ -8,11 +8,11 @@ Tentative Schedule Plan:
 
 **January 30  - Student presenter; Nick on RNA-seq and/or Coexpression analysis**
 
-February 6 – Student presenter; Melissa on R
+February 6 – TBD
 
-February 13 - Invited speaker; Dr. Alberto Cairo – Why Graphs Lie, data visualization
+February 13 - TBD
 
-February 20 – 
+February 20 – TBD
 
 **February 27 - Invited speaker; Dr. Stephanie Rosales, Jupyter Notebooks**
 
@@ -24,13 +24,13 @@ February 20 –
 
 **March 26– Student presenter; Mike Connelly on NCBI databases and BLAST data**
 
-April 2 - Invited speaker; Michael Love’s lecture of DESeq2
+April 2 - TBD
 
-April 9– Student presenter; Mo on Bash scripting, Pegasus/Triton
+April 9– TBD
 
-April 16 - Invited speaker; Beth Babcock on statistics
+April 16 - TBD
 
-April 23 (last week of classes) – Student presenter; Manish on Latex
+April 23 (last week of classes) – TBD
 
 April 30 (exam period?)
 
