@@ -1,6 +1,8 @@
 # Club Meetings
 
-Tentative Schedule Plan:
+Thursdays, 2-3 pm, MSC 125 (behind the fish tank)
+
+Spring 2020 Semester Schedule:
 
 **January 16  - CCS/Libraries; Git and Github, collaborative coding**
 
