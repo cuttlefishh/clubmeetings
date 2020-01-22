@@ -8,7 +8,7 @@ Spring 2020 Semester Schedule:
 
 **January 23  - Elections; discuss plan for semester, Tidy Tuesday**
 
-**January 30  - Student presenter; Nick on RNA-seq and/or Coexpression analysis**
+**January 30  - Student presenter; Nick Kron on RNA-seq and/or Coexpression analysis**
 
 February 6 – TBD
 
@@ -18,7 +18,7 @@ February 20 – TBD
 
 **February 27 - Invited speaker; Dr. Stephanie Rosales, Jupyter Notebooks**
 
-**March 5– Student presenter; Anthony on microbiome, single-cell RNA seq**
+**March 5– Student presenter; Anthony Bonacolta on microbiome, single-cell RNA seq**
 
 **March 12 (Spring Recess)**
 
