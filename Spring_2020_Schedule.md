@@ -10,7 +10,7 @@ Spring 2020 Semester Schedule:
 
 **January 30  - Student presenter; Nick Kron on RNA-seq and/or Coexpression analysis**
 
-February 6 – TBD
+**February 6 – Tidy Tuesday**
 
 February 13 - TBD
 
