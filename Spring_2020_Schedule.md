@@ -28,7 +28,7 @@ February 20 – TBD
 
 April 2 - TBD
 
-April 9– TBD
+**April 9– Kyle Detloff, Survey Statistician from NOAA SEFSC**
 
 April 16 - TBD
 
