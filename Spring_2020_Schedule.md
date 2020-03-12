@@ -30,7 +30,7 @@ February 20 – TBD
 
 **April 9 – Kyle Detloff, Survey Statistician from NOAA SEFSC; R and Tidyverse**
 
-**April 16 - Luke Thompson, NOAA AOML discussing Qiime**
+**April 16 - Dr. Luke Thompson, NOAA AOML discussing Qiime**
 
 **April 23 (last week of classes) – Mike Connelly on NCBI databases and BLAST data**
 
