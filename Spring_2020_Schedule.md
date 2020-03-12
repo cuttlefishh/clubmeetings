@@ -22,17 +22,17 @@ February 20 – TBD
 
 **March 12 (Spring Recess)**
 
-**March 19 - Invited speaker: Dr. Luke Thompson from AOML**
+**March 19 - CANCELLED
 
-**March 26– Student presenter; Mike Connelly on NCBI databases and BLAST data**
+**March 26 – CANCELLED
 
-April 2 - TBD
+**April 2 - CANCELLED
 
-**April 9– Kyle Detloff, Survey Statistician from NOAA SEFSC**
+**April 9 – Kyle Detloff, Survey Statistician from NOAA SEFSC**
 
-April 16 - TBD
+**April 16 - Luke Thompson, NOAA AOML discussing Qiime
 
-April 23 (last week of classes) – TBD
+**April 23 (last week of classes) – Mike Connelly on NCBI databases and BLAST data
 
-April 30 (exam period?)
+April 30 (exam period)
 
