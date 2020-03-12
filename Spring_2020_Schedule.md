@@ -12,9 +12,9 @@ Spring 2020 Semester Schedule:
 
 **February 6 – Tidy Tuesday**
 
-February 13 - TBD
+**February 13 - Tidy Tuesday**
 
-February 20 – TBD
+**February 20 – Tidy Tuesday**
 
 **February 27 - Invited speaker; Dr. Stephanie Rosales, Jupyter Notebooks**
 
