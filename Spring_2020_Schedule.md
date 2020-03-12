@@ -28,7 +28,7 @@ Spring 2020 Semester Schedule:
 
 **April 2 - CANCELLED**
 
-**April 9 – Kyle Detloff, Survey Statistician from NOAA SEFSC; R and Tidyverse**
+**April 9 – Kyle Dettloff, Survey Statistician from NOAA SEFSC; R and Tidyverse**
 
 **April 16 - Dr. Luke Thompson, NOAA AOML discussing Qiime**
 
