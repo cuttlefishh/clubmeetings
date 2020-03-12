@@ -28,7 +28,7 @@ February 20 – TBD
 
 **April 2 - CANCELLED**
 
-**April 9 – Kyle Detloff, Survey Statistician from NOAA SEFSC. R and Tidyverse **
+**April 9 – Kyle Detloff, Survey Statistician from NOAA SEFSC; R and Tidyverse **
 
 **April 16 - Luke Thompson, NOAA AOML discussing Qiime**
 
