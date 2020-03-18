@@ -1,6 +1,6 @@
 # Club Meetings
 
-Thursdays, 2-3 pm, MSC 125 (behind the fish tank)
+Thursdays, 2-3 pm, now on Zoom!
 
 Spring 2020 Semester Schedule:
 
