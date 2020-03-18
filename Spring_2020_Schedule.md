@@ -6,19 +6,19 @@ Thursdays, 2-3 pm, now on Zoom!
 
 Date | Topic | Presenter
 -----|-----|-----
-January 16 | CCS/Libraries, Git and Github, collaborative coding | 
-January 23 | Elections, discuss plan for semester, Tidy Tuesday | 
-January 30 | RNA-seq and/or coexpression analysis | Nick Kron
-February 6 | Tidy Tuesday | 
-February 13 | Tidy Tuesday | 
-February 20 | Tidy Tuesday | 
-February 27 | Jupyter Notebooks | Dr. Stephanie Rosales (NOAA/AOML)
-March 5 | Microbiome, single-cell RNAseq | Anthony Bonacolta
-March 12 | Spring Recess | 
-March 19 | CANCELLED | 
-March 26 | CANCELLED | 
-April 2 | CANCELLED | 
-April 9 | R and Tidyverse | Kyle Dettloff, Survey Statistician (NOAA/SEFSC)
-April 16 | QIIME 2 | Dr. Luke Thompson (NOAA/AOML)
-April 23 | NCBI databases and BLAST data (LAST WEEK OF CLASSES) | Mike Connelly
-April 30 | EXAM PERIOD | 
+Jan 16 | CCS/Libraries, Git and Github, collaborative coding | 
+Jan 23 | Elections, discuss plan for semester, Tidy Tuesday | 
+Jan 30 | RNA-seq and/or coexpression analysis | Nick Kron
+Feb 6 | Tidy Tuesday | 
+Feb 13 | Tidy Tuesday | 
+Feb 20 | Tidy Tuesday | 
+Feb 27 | Jupyter Notebooks | Dr. Stephanie Rosales (NOAA/AOML)
+Mar 5 | Microbiome, single-cell RNAseq | Anthony Bonacolta
+Mar 12 | Spring Recess | 
+Mar 19 | CANCELLED | 
+Mar 26 | CANCELLED | 
+Apr 2 | CANCELLED | 
+Apr 9 | R and Tidyverse | Kyle Dettloff, Survey Statistician (NOAA/SEFSC)
+Apr 16 | QIIME 2 | Dr. Luke Thompson (NOAA/AOML)
+Apr 23 | NCBI databases and BLAST data (LAST WEEK OF CLASSES) | Mike Connelly
+Apr 30 | EXAM PERIOD | 
