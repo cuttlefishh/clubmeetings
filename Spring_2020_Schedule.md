@@ -24,9 +24,9 @@ Spring 2020 Semester Schedule:
 
 **March 19 - CANCELLED**
 
-**March 26 – CANCELLED**
+**March 26 – Tidy Tuesday**
 
-**April 2 - CANCELLED**
+**April 2 - Tidy Tuesday**
 
 **April 9 – Kyle Dettloff, Survey Statistician from NOAA SEFSC; R and Tidyverse**
 
