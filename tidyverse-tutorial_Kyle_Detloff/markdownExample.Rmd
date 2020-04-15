@@ -1,0 +1,130 @@
+---
+title: "t-test Power Simulation"
+author: "Kyle Dettloff"
+date: "`r format(Sys.Date(), '%m-%d-%Y')`"
+header-includes:
+- \let\rmarkdownfootnote\footnote%
+- \def\footnote{\protect\rmarkdownfootnote}
+
+- \usepackage{titling}
+- \setlength{\droptitle}{-2em}
+
+- \pretitle{\vspace{\droptitle}\centering\huge}
+- \posttitle{\par}
+
+- \preauthor{\centering\large\emph}
+- \postauthor{\par}
+
+- \predate{\centering\large\emph}
+- \postdate{\par}
+output: pdf_document
+geometry: margin=0.5in
+params:
+  nsim: 
+    label: "Number of Simulations"
+    value: 1000
+    input: slider
+    min: 100
+    max: 10000
+    step: 10
+    
+  alpha:
+    label: "alpha"
+    value: 0.05
+    input: numeric
+    min: 0
+    max: 1
+    
+  max.mean.diff:
+    label: "Max Difference in Means"
+    value: 3
+    input: numeric
+    min: 1
+    max: 5
+    
+  sim1.n1:
+    label: "Simulation 1: Sample Size Pop 1"
+    value: 10
+    input: numeric
+    min: 2
+    
+  sim1.n2:
+    label: "Simulation 1: Sample Size Pop 2"
+    value: 10
+    input: numeric
+    min: 2
+    
+  sim1.sd1:
+    label: "Simulation 1: Standard Deviation Pop 1"
+    value: 1
+    input: numeric
+    min: 0
+    
+  sim1.sd2:
+    label: "Simulation 1: Standard Deviation Pop 2"
+    value: 1
+    input: numeric
+    min: 0
+    
+  sim1.eqvar:
+    label: "Simulation 1: Unequal Variance?"
+    value: FALSE
+    input: checkbox
+    
+  sim2.n1:
+    label: "Simulation 2: Sample Size Pop 1"
+    value: 10
+    input: numeric
+    min: 2
+    
+  sim2.n2:
+    label: "Simulation 2: Sample Size Pop 2"
+    value: 10
+    input: numeric
+    min: 2
+    
+  sim2.sd1:
+    label: "Simulation 2: Standard Deviation Pop 1"
+    value: 1
+    input: numeric
+    min: 0
+    
+  sim2.sd2:
+    label: "Simulation 2: Standard Deviation Pop 2"
+    value: 1
+    input: numeric
+    min: 0
+  
+  sim2.eqvar:
+    label: "Simulation 2: Unequal Variance?"
+    value: FALSE
+    input: checkbox
+---
+
+\pagenumbering{gobble}
+
+```{r global_options, include=FALSE}
+knitr::opts_chunk$set(warning = FALSE, message = FALSE, echo = FALSE, comment = NA, results = "asis")
+```
+
+```{r}
+source("./markdownExampleFunction.R")
+result = tsimMult(nsim = params$nsim,
+                  n11 = params$sim1.n1, n12 = params$sim1.n2, sd11 = params$sim1.sd1, sd12 = params$sim1.sd2, vareq1 = params$sim1.eqvar,
+                  n21 = params$sim2.n1, n22 = params$sim2.n2, sd21 = params$sim2.sd1, sd22 = params$sim2.sd2, vareq2 = params$sim2.eqvar,
+                  alpha = params$alpha,
+                  simrange.max = params$max.mean.diff)
+```
+\
+**Simulation 1:** n~1~ = `r params$sim1.n1`, n~2~ = `r params$sim1.n2`, sd~1~ = `r params$sim1.sd1`, sd~2~ = `r params$sim1.sd2`, `r ifelse(params$sim1.eqvar, "equal", "unequal")` variance  
+**Simulation 2:** n~1~ = `r params$sim2.n1`, n~2~ = `r params$sim2.n2`, sd~1~ = `r params$sim2.sd1`, sd~2~ = `r params$sim2.sd2`, `r ifelse(params$sim2.eqvar, "equal", "unequal")` variance
+\
+```{r, fig.width = 8, fig.height = 7.5, fig.align = 'center'}
+result[[1]]
+```
+
+\newpage
+
+```{r}
+result[[2]]
+```
