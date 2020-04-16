@@ -1,3 +1,5 @@
+**April 16, 2020 - Presentation by Dr. Luke Thompson, NOAA AOML OCED**
+
 Here are the links to Luke Thompson's github tutorial and slideshow information on QIIME2 and DADA2. 
 
 Slideshows with background info:
