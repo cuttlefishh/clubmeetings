@@ -34,5 +34,5 @@ Spring 2020 Semester Schedule:
 
 **April 23 (last week of classes) – Mike Connelly on NCBI databases and BLAST data**
 
-April 30 (exam period)
+**April 30 -- Zoom final presentations for UM Computational Fellows: https://idsc.miami.edu/event/idsc-fellows-final-presentations-2020/ from 2-4 PM **
 
