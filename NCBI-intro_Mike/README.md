@@ -90,16 +90,19 @@ blastn --help | less
 ```
 
 
-## BLAST functions
+## BLAST+ functions
 
 The BLAST+ package offers three categories of applications: 1.) search tools, 2.) BLAST database tools, and 3.) sequence filtering tools.  
 
 1. search tools:  blastn, blastp, blastx, tblastx, tblastn, psiblast, rpsblast, and rpstblastn
 2. BLAST database tools: makeblastdb, blastdb_aliastool, makeprofiledb, and blastdbcmd
 
-Now, refer to the shell scripts in the `code` directory. 
+For the remainder of the tutorial you can also refer to the shell scripts in the `code` directory. 
 
 Gather the neccessary reference sequences from the NCBI databases you want to BLAST your query sequences against:
+https://www.ncbi.nlm.nih.gov/refseq/
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/
+
 ```
 test
 ```
@@ -111,15 +114,23 @@ test
 
 blastn
 
-blastp
 
+## BLAST output
 
-tblastn
+Bit score
+
+E-value
+
+Helpful YouTube videos from the NCBI: Part I https://www.youtube.com/watch?v=nO0wJgZRZJs  
+Part II https://www.youtube.com/watch?v=Z7ek7UoP7Bg
+
 
 
 ## More example BLAST searches
 
+blastp
 
+tblastn
 
 ## Example BLAST workflow: coral immune genes
 NOD-like receptors
