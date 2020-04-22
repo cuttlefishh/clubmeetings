@@ -44,7 +44,7 @@ that come with the tutorial:
 - `seqs/sequences.fasta`
 - `seqs/reference.fasta`
 
-### Create blast database
+#### Create blast database
 The different blast tools require a formatted database to search against. In
 order to create the database, we use the `makeblastdb` tool:
 
@@ -55,7 +55,7 @@ makeblastdb -in seqs/reference.fasta -title reference -dbtype nucl -out database
 This will create a list of files in the `databases` folder. These are all part
 of the blast database.
 
-### Run test BLAST
+#### Run test BLAST
 We can now blast our sequences against the database. In this case, both our
 query sequences and database sequences are DNA sequences, so we use the
 `blastn` tool:
@@ -80,7 +80,7 @@ You can use different output formats with the `outmft` option:
     11 = BLAST archive format (ASN.1)
 ```
 
-### More options and getting help
+#### More options and getting help
 
 If you need help to know the options and parameters you can pass `blastn` and
 the other blast+ utilities, use the `--help` option and pipe the output into
