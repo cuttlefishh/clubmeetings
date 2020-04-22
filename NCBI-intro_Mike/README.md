@@ -23,7 +23,6 @@ Get the compiled  NCBI blast+ executables onto your local computer from this URL
 ```
 ftp://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/
 ```
-
 Decompress the archive. For example:
 ```
 tar xvfz ncbi-blast-2.10.0+-x64-linux.tar.gz 
@@ -35,6 +34,7 @@ export PATH="/PATH/TO/ncbi-blast-2.10.0+/bin":$PATH
 ```
 And change the `/PATH/TO` part to the path where you have put the extracted
 archive.
+
 
 ## Basic BLAST database and query search example
 
@@ -89,23 +89,12 @@ the other blast+ utilities, use the `--help` option and pipe the output into
 blastn --help | less
 ```
 
-
 ## BLAST+ functions
 
 The BLAST+ package offers three categories of applications: 1.) search tools, 2.) BLAST database tools, and 3.) sequence filtering tools.  
 
 1. search tools:  blastn, blastp, blastx, tblastx, tblastn, psiblast, rpsblast, and rpstblastn
 2. BLAST database tools: makeblastdb, blastdb_aliastool, makeprofiledb, and blastdbcmd
-
-For the remainder of the tutorial you can also refer to the shell scripts in the `code` directory. 
-
-Gather the neccessary reference sequences from the NCBI databases you want to BLAST your query sequences against:
-https://www.ncbi.nlm.nih.gov/refseq/
-https://ftp.ncbi.nlm.nih.gov/genomes/refseq/
-
-```
-test
-```
 
 makeblastdb
 ```
@@ -118,12 +107,13 @@ blastn
 ## BLAST output
 
 Bit score
-
 E-value
+Identities
+Gaps 
+
 
 Helpful YouTube videos from the NCBI: Part I https://www.youtube.com/watch?v=nO0wJgZRZJs  
 Part II https://www.youtube.com/watch?v=Z7ek7UoP7Bg
-
 
 
 ## More example BLAST searches
@@ -132,9 +122,30 @@ blastp
 
 tblastn
 
-## Example BLAST workflow: coral immune genes
-NOD-like receptors
+## Example: BLAST searches for stony coral MyD88 homologs 
 
+To illustrate more features of BLAST+ on the command line, we will now cover a more specific example of using BLAST to search for coral genes with sequence similarity to myeloid differentiation primary protein 88, or MyD88, an evolutionarily conserved cytosolic adapter protein that plays a central role in immune responses. 
+First, will we need to obtain reference sequences for all of the five genome assemblies in the NCBI RefSeq database. These are genome assemblies that have been submitted to the NCBI from various research groups and have received annotations in the NCBI's automated genome annotation pipeline.  
+There are five coral species with genomes available in NCBI RefSeq: *Acropora digitifera*, *A. millepora*, *Orbicella faveolata*, *Stylophora pistillata*, and *Pocillopora damicornis*.
+For the remainder of the tutorial you can also refer to the shell scripts in the `code` directory.
+
+
+## Further exploration of the NCBI's resources with BLAST
+
+You are now encouraged to create your own BLAST databases and conduct searches using your own query sequences!
+
+Follow the links below to download the neccessary reference sequences from the NCBI databases you want to BLAST your query sequences against:
+https://www.ncbi.nlm.nih.gov/refseq/
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/
+
+Or you can try to download the genome assemblies you are interested in using with the NCBI Datasets tool. 
+https://www.ncbi.nlm.nih.gov/datasets/
+https://www.ncbi.nlm.nih.gov/datasets/docs/command-line-start/
+https://ftp.ncbi.nlm.nih.gov/pub/datasets/command-line/LATEST/
+
+```
+curl -o datasets 'https://ftp.ncbi.nlm.nih.gov/pub/datasets/command-line/LATEST/mac/datasets'
+```
 
 
 
