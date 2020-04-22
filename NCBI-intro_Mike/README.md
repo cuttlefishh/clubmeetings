@@ -17,5 +17,56 @@ Clone the MBE Coding Club "clubmeetings" repository onto your local machine:
 
 `git clone https://github.com/MBE-Coding-Club/clubmeetings.git`
 
-Gather the neccessary reference sequences from the NCBI databases you want to BLAST your query sequences against:
 
+Get the compiled  NCBI blast+ executables onto your local computer from this URL:
+```
+ftp://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/
+```
+Decompress the archive. For example:
+```
+tar xvfz ncbi-blast-2.9.0+-x64-linux.tar.gz
+```
+
+Add the `bin` folder from the extracted archive to your path. For example, add
+the following line to your `~/.bashrc` file:
+```
+export PATH="/PATH/TO/ncbi-blast-2.9.0+/bin":$PATH
+```
+
+And change the `/PATH/TO` part to the path where you have put the extracted
+archive.
+
+Gather the neccessary reference sequences from the NCBI databases you want to BLAST your query sequences against:
+`test`
+```
+test
+```
+
+## BLAST functions
+
+The BLAST+ package offers three categories of applications: 1.) search tools, 2.) BLAST database tools, and 3.) sequence filtering tools.  
+
+1. search tools:  blastn, blastp, blastx, tblastx, tblastn, psiblast, rpsblast, and rpstblastn
+2. BLAST database tools: makeblastdb, blastdb_aliastool, makeprofiledb, and blastdbcmd
+
+Refer to the shell scripts in the "code" directory. 
+
+makeblastdb
+`test`
+
+blastn
+`test`
+
+blastp
+`test`
+
+tblastn
+`test`
+
+
+## More example BLAST searches
+
+
+
+## Example BLAST workflow: coral immune genes
+NOD-like receptors
