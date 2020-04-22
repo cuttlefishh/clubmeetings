@@ -14,30 +14,30 @@ BLAST+ databases available via ftp: https://ftp.ncbi.nlm.nih.gov/blast/db/
 ## Getting started with this workshop
 
 Clone the MBE Coding Club "clubmeetings" repository onto your local machine:
-
-`git clone https://github.com/MBE-Coding-Club/clubmeetings.git`
-
+```
+git clone https://github.com/MBE-Coding-Club/clubmeetings.git
+```
 
 Get the compiled  NCBI blast+ executables onto your local computer from this URL:
 ```
 ftp://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/
 ```
+
 Decompress the archive. For example:
 ```
-tar xvfz ncbi-blast-2.9.0+-x64-linux.tar.gz
+tar xvfz ncbi-blast-2.10.0+-x64-linux.tar.gz 
 ```
 
 Add the `bin` folder from the extracted archive to your path. For example, add
 the following line to your `~/.bashrc` file:
 ```
-export PATH="/PATH/TO/ncbi-blast-2.9.0+/bin":$PATH
+export PATH="/PATH/TO/ncbi-blast-2.10.0+/bin":$PATH
 ```
-
 And change the `/PATH/TO` part to the path where you have put the extracted
 archive.
 
+
 Gather the neccessary reference sequences from the NCBI databases you want to BLAST your query sequences against:
-`test`
 ```
 test
 ```
@@ -52,17 +52,16 @@ The BLAST+ package offers three categories of applications: 1.) search tools, 2.
 Refer to the shell scripts in the "code" directory. 
 
 makeblastdb
-`test`
+```
+test
+```
 
 blastn
-`test`
 
 blastp
-`test`
+
 
 tblastn
-`test`
-
 
 ## More example BLAST searches
 
