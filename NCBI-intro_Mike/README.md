@@ -15,7 +15,7 @@ BLAST+ databases available via ftp: https://ftp.ncbi.nlm.nih.gov/blast/db/
 
 Clone the MBE Coding Club "clubmeetings" repository onto your local machine:
 
-'git clone https://github.com/MBE-Coding-Club/clubmeetings.git'
+`git clone https://github.com/MBE-Coding-Club/clubmeetings.git`
 
 Gather the neccessary reference sequences from the NCBI databases you want to BLAST your query sequences against:
 
