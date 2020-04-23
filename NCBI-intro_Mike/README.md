@@ -145,7 +145,7 @@ export PATH="/PATH/TO/datasets":$PATH
 And change the `/PATH/TO` part to the path where you have put the executable file. You may have to `chmod +x datasets` to use the datasets tools. 
 
 
-## Detailed example: BLAST searches for stony coral MyD88 homologs 
+## Detailed example: BLAST searches for stony coral immune genes homologs (MyD88, then TLRs, Lectins, NLRs, etc.)
 
 To illustrate more features of BLAST+ on the command line, we will now cover a more specific example of using BLAST to search for coral genes with sequence similarity to myeloid differentiation primary protein 88, or MyD88, an evolutionarily conserved cytosolic adapter protein that plays a central role in immune responses. 
 First, will we need to obtain reference sequences for all of the five genome assemblies in the NCBI RefSeq database. These are genome assemblies that have been submitted to the NCBI from various research groups and have received annotations in the NCBI's automated genome annotation pipeline.  
@@ -158,13 +158,11 @@ datasets assembly-descriptors --refseq tax-name Scleractinia --limit ALL
 datasets assembly-descriptors --refseq tax-name Scleractinia --limit ALL | jq '.datasets[].assembly_accession' -r > refseq_genomes.txt
 grep -f refseq_genomes.txt assembly_summary_refseq.txt > genomes_summary.txt
 ```
-
 ```
 awk -F "\t" '$11=="latest"{print $20}' genomes_summary.txt > ftpdirpaths.txt
 
 awk 'BEGIN{FS=OFS="/";filesuffix="protein.faa.gz"}{ftpdir=$0;asm=$10;file=asm"_"filesuffix;print ftpdir,file}' ftpdirpaths.txt > ftpfilepaths.txt
 ```
-
 ```
 for target in ftpfilepaths.txt
 do
@@ -173,13 +171,17 @@ ${target} \
 ./seqs
 done
 ```
+```
+unzip ./seqs/*.faa.gz
+cat ./seqs/*.faa > ./seqs/coral_protein.faa
+```
 
 Make a local BLAST database with just the Scleractinian protein sequences as reference:
 ```
-makeblastdb -dbtype prot -in seqs/ -out databases/coral_prot
+makeblastdb -dbtype prot -in seqs/coral_protein.faa -out databases/coral_protein
 ```
 
 Conduct a  blastp search to identify proteins with similarity to MyD88
 ```
-blastp -db databases/amil -query seqs/myd88_prot.fasta -evalue 1e-3 -outfmt 0 > output/myd88_amil.txt
+blastp -db databases/coral_protein -query seqs/myd88_prot.fasta -evalue 1e-3 -outfmt 0 > output/myd88_coral.txt
 ```
