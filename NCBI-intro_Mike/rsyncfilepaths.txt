@@ -1,5 +1,0 @@
-rsync://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/222/465/GCF_000222465.1_Adig_1.1/GCF_000222465.1_Adig_1.1_protein.faa.gz
-rsync://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/042/975/GCF_002042975.1_ofav_dov_v1/GCF_002042975.1_ofav_dov_v1_protein.faa.gz
-rsync://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/571/385/GCF_002571385.1_Stylophora_pistillata_v1/GCF_002571385.1_Stylophora_pistillata_v1_protein.faa.gz
-rsync://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/003/704/095/GCF_003704095.1_ASM370409v1/GCF_003704095.1_ASM370409v1_protein.faa.gz
-rsync://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/004/143/615/GCF_004143615.1_amil_sf_1.1/GCF_004143615.1_amil_sf_1.1_protein.faa.gz
