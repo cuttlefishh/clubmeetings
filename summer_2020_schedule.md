@@ -2,10 +2,10 @@ Virtual Coding Club meetings: Monday's from 3-4 PM via Zoom
 
 # Schedule:
 
-June 8 - 
-June 15 - 
-June 22 -
-June 29 -
+June 8
+June 15 
+June 22
+June 29
 
 July 6 - 
 July 13 -
