@@ -2,7 +2,7 @@ Virtual Coding Club meetings: Monday's from 3-4 PM via Zoom
 
 ### Schedule:
 
-- June 8
+- June 8: Introduction to Tidyverse, online R resources, Intro to GitHub and git, and Intro to Tidy Tuesday!
 - June 15 
 - June 22: Mike Connelly; R Tutorial
 - June 29
