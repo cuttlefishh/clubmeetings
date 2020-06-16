@@ -15,4 +15,4 @@ Virtual Coding Club meetings: Monday's from 3-4 PM via Zoom
 - August 3
 - August 10
 
-Fall semester starts?
+Fall semester starts
