@@ -8,8 +8,8 @@ Virtual Coding Club meetings: Monday's from 3-4 PM via Zoom
 - June 29: Emma Pontes - SAS Tutorial
 
 - July 6: Troubleshooting, Tidy Tuesday
-- July 13
-- July 20
+- July 13: no coding club
+- July 20: Troubleshooting, Tidy Tuesday
 - July 27: Ben Young - Machine Learning Presentation
 
 - August 3: Mike Connelly - R packages for constructing and visualizing phylogenetic trees
