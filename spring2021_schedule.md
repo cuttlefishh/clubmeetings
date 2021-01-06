@@ -1,11 +1,12 @@
 # Welcome to MBE Coding Club for Spring 2021!
 
 Who we are: a group of graduate students (led by Allyson DeMerlis) who want to work on our own coding problems together. 
+
 Collaboration and working through problems --> more knowledge and skills gained by all!
 
-Tentative schedule for this term:
+## Tentative schedule for this term:
 
-Mondays from 3-4 PM via Zoom
+### Mondays from 3-4 PM via Zoom
 
 January 11: Welcome to Coding Club (and RSMAS): Introduction to commonly used programs, languages, and available resources!
 
