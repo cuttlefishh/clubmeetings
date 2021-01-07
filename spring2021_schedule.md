@@ -14,16 +14,22 @@ January 18: R tips and tricks; data visualization activity
 
 January 25: Group coding time; bring your own scripts!
 
+... 
+
 February 1:
 February 8:
 February 15:
 February 22:
+
+...
 
 March 1:
 March 8:
 March 15:
 March 22:
 March 29:
+
+...
 
 April 5:
 April 12:
