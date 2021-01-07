@@ -6,7 +6,7 @@ Collaboration and working through problems --> more knowledge and skills gained 
 
 ## Tentative schedule for this term:
 
-### Mondays from 3-4 PM via Zoom
+### Mondays from 3-4 PM via Zoom (<https://miami.zoom.us/j/97265637386?pwd=Yng4NkdkUFdyZXQ0MmI4RnZRVXo3QT09>) 
 
 January 11: Welcome to Coding Club (and RSMAS): Introduction to commonly used programs, languages, and available resources!
 
