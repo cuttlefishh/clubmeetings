@@ -8,15 +8,14 @@ Collaboration and working through problems --> more knowledge and skills gained 
 
 ### Mondays from 3-4 PM via Zoom (<https://miami.zoom.us/j/97265637386?pwd=Yng4NkdkUFdyZXQ0MmI4RnZRVXo3QT09>) 
 
-January 11: Welcome to Coding Club (and RSMAS): Introduction to commonly used programs, languages, and available resources!
+January 18: Welcome to Coding Club (and RSMAS): Introduction to commonly used programs, languages, and available resources!
 
-January 18: R tips and tricks; data visualization activity
-
-January 25: Group coding time; bring your own scripts!
+January 25: R tips and tricks; data visualization activity
 
 ... 
 
-February 1:
+February 1: Group coding time; bring your own scripts!
+
 February 8:
 February 15:
 February 22:
