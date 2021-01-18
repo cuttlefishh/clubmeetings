@@ -8,6 +8,7 @@ Intro to Coding club and resources!
  - They do virtual consultations to help troubleshoot code, statistics, and ArcGIS!
  - Click on "Book a Consultation"
  - Also have virtual workshops and courses: https://sp.library.miami.edu/subjects/guide.php?subject=courses-and-workshops#tab-1
+ - https://github.com/UMiamiLibraries/courses-and-workshops
  
 ### R 4 Data Science online community
 - Their twitter is very active: https://twitter.com/R4DScommunity
