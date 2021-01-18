@@ -26,3 +26,7 @@ Intro to Coding club and resources!
 - https://github.com/aomlomics/tutorials 
 - made by Dr. Luke Thompson
 - github, python, Qiime2, command line, snakemake
+
+
+## Do you have other resources/workshops/websites you like? Add them here!
+https://docs.google.com/spreadsheets/d/1deGSI5gN8xjnAVAu9_DmeWVc50WBANn4JlgE3gk5Gfw/edit?usp=sharing
