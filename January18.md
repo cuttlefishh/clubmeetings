@@ -2,12 +2,7 @@ Intro to Coding club and resources!
 
 ### MBE Coding Club curated resources
 - coding club github folder called "resources" https://github.com/MBE-Coding-Club/resources/
-- Allyson's curated list of DNA/RNA sequencing and analyses resources: https://allysondemerlis.weebly.com/coding.html
-
-### Introduction to Coding
-- Software Carpentry designs workshops specifically for teaching research computing: https://software-carpentry.org/
-- Data Carpentry designs workshops for data-driven research: https://datacarpentry.org/
-- Online Coding Club - Amazing resource with step-by-step R code for tidying data and data visualization! https://ourcodingclub.github.io/
+- previous coding club guest lectures: https://github.com/MBE-Coding-Club/clubmeetings/tree/master/2020
 
 ### University of Miami Data Services: https://www.library.miami.edu/research/data-services.html
  - They do virtual consultations to help troubleshoot code, statistics, and ArcGIS!
@@ -22,11 +17,15 @@ Intro to Coding club and resources!
 - Fundamentals of Data Visualization by Claus Wilke: https://serialmentor.com/dataviz/
 - R for Data Science by Garrett Grolemund and Hadley Wickham: https://r4ds.had.co.nz/
 
+### Introduction to Coding
+- Software Carpentry designs workshops specifically for teaching research computing: https://software-carpentry.org/
+- Data Carpentry designs workshops for data-driven research: https://datacarpentry.org/
+- Online Coding Club - Amazing resource with step-by-step R code for tidying data and data visualization! https://ourcodingclub.github.io/
+
 ### NOAA AOML 'Omics Tutorials
 - https://github.com/aomlomics/tutorials 
 - made by Dr. Luke Thompson
 - github, python, Qiime2, command line, snakemake
-
 
 ## Do you have other resources/workshops/websites you like? Add them here!
 https://docs.google.com/spreadsheets/d/1deGSI5gN8xjnAVAu9_DmeWVc50WBANn4JlgE3gk5Gfw/edit?usp=sharing
