@@ -1,38 +1,24 @@
-# Club Meetings
+## Club Meetings
 
 Thursdays, 2-3 pm, now on Zoom!
 
-Spring 2020 Semester Schedule:
+### Spring 2020 Semester Schedule
 
-**January 16  - CCS/Libraries; Git and Github, collaborative coding**
-
-**January 23  - Elections; discuss plan for semester, Tidy Tuesday**
-
-**January 30  - Student presenter; Nick Kron on RNA-seq and/or Coexpression analysis**
-
-**February 6 – Tidy Tuesday**
-
-**February 13 - Tidy Tuesday**
-
-**February 20 – Tidy Tuesday**
-
-**February 27 - Invited speaker; Dr. Stephanie Rosales, Jupyter Notebooks**
-
-**March 5– Student presenter; Anthony Bonacolta on microbiome, single-cell RNA seq**
-
-**March 12 (Spring Recess)**
-
-**March 19 - CANCELLED**
-
-**March 26 – Tidy Tuesday**
-
-**April 2 - Tidy Tuesday**
-
-**April 9 – Kyle Dettloff, Survey Statistician from NOAA SEFSC; R and Tidyverse**
-
-**April 16 - Dr. Luke Thompson, NOAA AOML discussing Qiime**
-
-**April 23 (last week of classes) – Mike Connelly on NCBI databases and BLAST data**
-
-**April 30 -- Zoom final presentations for UM Computational Fellows: https://idsc.miami.edu/event/idsc-fellows-final-presentations-2020/ from 2-4 PM**
-
+Date | Topic | Presenter
+-----|-------|----------
+1/16 | CCS/Libraries, Git and Github, collaborative coding |
+1/23 | Elections, discuss plan for semester, Tidy Tuesday |
+1/30 | RNA-seq and/or coexpression analysis | Nick Kron
+2/06 | Tidy Tuesday |
+2/13 | Tidy Tuesday |
+2/20 | Tidy Tuesday |
+2/27 | Jupyter Notebooks | Dr. Stephanie Rosales (NOAA/AOML)
+3/05 | Microbiome, single-cell RNAseq | Anthony Bonacolta
+3/12 | Spring Recess |
+3/19 | CANCELLED |
+3/26 | CANCELLED |
+4/02 | CANCELLED |
+4/09 | R and Tidyverse | Kyle Dettloff, Survey Statistician (NOAA/SEFSC)
+4/16 | QIIME 2 | Dr. Luke Thompson (NOAA/AOML)
+4/23 | NCBI databases and BLAST data (LAST WEEK OF CLASSES) | Mike Connelly
+4/30 | EXAM PERIOD |
