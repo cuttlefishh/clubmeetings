@@ -1,0 +1,9 @@
+seqs/GCF*
+databases
+output
+assembly_summary_refseq.txt
+ftp*.txt
+rsync*.txt
+refseq_genomes.txt
+seqs/*_protein.faa
+seriola_genome.fna
